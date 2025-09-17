@@ -2,4 +2,4 @@
 *Crear el conocido juego buscaminas en java y mas tarde en kotlin para el entretenimiento y asi aprender los primeros pasos con una aplicacion medianamente sencilla*
 ## Problema a resolver:
 *El proyecto busca resolver la necesidad de contar con una herramienta de entretenimiento digital que además estimule el pensamiento lógico y la capacidad de concentración*
-*De esta forma el proyecto resuelve un entretenimiento accesible y una estimulacion cognitiva gracias a la complejidad de este.
+*De esta forma el proyecto resuelve un entretenimiento accesible y una estimulacion cognitiva gracias a la complejidad de este.*
