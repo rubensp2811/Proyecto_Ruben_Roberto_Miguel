@@ -10,15 +10,15 @@
   2. Hace clic en una mina -> PIERDE
 
 ## 2. Diseñar flujo de navegacion:
-*Pantalla inicial: Menu con opciones -> Jugar, Instrucciones, Opciones, Salir.
-*Pantalla de selección de nivel -> Principiantes, Intermedio, Experto.
-*Pantalla de juego -> Cuadricula, botones de opciones (reinicio, dificultad).
-*Pantalla de resultados -> Mensaje de victoria o derrota, botones para opciones.
+* Pantalla inicial: Menu con opciones -> Jugar, Instrucciones, Opciones, Salir.
+* Pantalla de selección de nivel -> Principiantes, Intermedio, Experto.
+* Pantalla de juego -> Cuadricula, botones de opciones (reinicio, dificultad).
+* Pantalla de resultados -> Mensaje de victoria o derrota, botones para opciones.
 
 ## 3. Crear wireframes (bocetos de pantallas):
-*Menu Principal: Bototes grandes y claros.
-*Pantalla de juego: Cuadricula al centro, contador de tiempo, minas restantes, boton de menu.
-*Pantalla de resultados: Ventana emergente sencilla con el resultado y opciones.
+* Menu Principal: Bototes grandes y claros.
+* Pantalla de juego: Cuadricula al centro, contador de tiempo, minas restantes, boton de menu.
+* Pantalla de resultados: Ventana emergente sencilla con el resultado y opciones.
 
 ## 4. Validar con un prototipo rapido (antes de pasar al diseño visual)
 1. Crear version basica jugable.
