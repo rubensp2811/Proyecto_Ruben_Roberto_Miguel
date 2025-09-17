@@ -66,7 +66,7 @@ Estos no afectan directamente la jugabilidad, pero son importantes para la calid
 
 ## 3. Extras futuros (opcional)
 
-* La primera revelación no puede ser una mina
+* La primera revelación no puede ser una mina.
 
 * Niveles de dificultad (fácil, medio, difícil).
 
