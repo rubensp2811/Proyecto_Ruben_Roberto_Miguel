@@ -16,9 +16,9 @@
 *Pantalla de resultados -> Mensaje de victoria o derrota, botones para opciones.
 
 ## 3. Crear wireframes (bocetos de pantallas):
-*Menu Principal: Bototes grandes y claros.*
-*Pantalla de juego: Cuadricula al centro, contador de tiempo, minas restantes, boton de menu.*
-*Pantalla de resultados: Ventana emergente sencilla con el resultado y opciones.*
+*Menu Principal: Bototes grandes y claros.
+*Pantalla de juego: Cuadricula al centro, contador de tiempo, minas restantes, boton de menu.
+*Pantalla de resultados: Ventana emergente sencilla con el resultado y opciones.
 
 ## 4. Validar con un prototipo rapido (antes de pasar al diseño visual)
 1. Crear version basica jugable.
