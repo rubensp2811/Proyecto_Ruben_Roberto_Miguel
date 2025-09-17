@@ -1,0 +1,40 @@
+## 1.Usuarios objetivos:
+-Estudiantes y Jovenes
+-Adultos que buscan entretenerse brevemente
+-Personas que buscan juegos de logica y estrategia
+
+## 2. Juegos Similares:
+### 1. Sudoku
+1. **Interfaz:** cuadricula en blanco y negro con números. Minimalista
+2. **Dificultad:** Varios niveles con dificultades distintas.
+3. **Puntos fuertes:** Estimula la lógica, reglas fáciles de entender y gran variedad de niveles.
+4. **Puntos debiles:** Puede resultar repetitivo, requiere bastante tiempo para terminar una partida.
+
+
+### 2. Tetris
+1. **Interfaz:** Pantalla con piezas de colores que caen, sencilla y atractiva.
+2. **Dificultad:** Va aumentando con la velocidad, lo que lo hace complejo progresivamente.
+3. **Puntos fuertes:** Partidas rápidas, muy adictivo, fácil de aprender.
+4. **Puntos débiles:** Se centra más en reflejos que en razonamiento lógico.
+
+### 3. Candy Crush
+**Interfaz:** Colorida, llamativa, con animaciones.
+**Dificultad:** Niveles progresivos con distintos objetivos.
+**Puntos fuertes:** Atractivo visual, motivación a seguir avanzando por niveles.
+**Puntos debiles:** A veces depende más de la suerte que de la estrategia y puede incluir compras integradas.
+
+
+### 4. Buscaminas
+**Interfaz:** Cuadricula simple con casillas que muestran números o minas.
+**Dificultad:** Configurable, varios niveles.
+**Puntos fuertes:** Sencillo, partidas rapidas, desarrolla la deducción y la memoria.
+**Puntos debiles:** Diseño visual basico, frustrante si se pierde por azar al principio.
+
+
+
+
+
+
+
+
+
