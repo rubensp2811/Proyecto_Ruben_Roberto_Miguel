@@ -187,30 +187,6 @@ Comprobar al final de cada turno si se ha ganado o perdido la partida.
 
 ---
 
-# Caso de Uso: Mecánica Ganar  
-
-## Descripción  
-Verificar si el jugador ha ganado tras cada acción.  
-
-## Actores  
-- Sistema  
-
-## Precondición  
-- Se ha revelado o marcado al menos una celda.  
-
----
-
-## Flujos  
-
-| Flujo Principal | Flujo Alternativo |
-|-----------------|------------------|
-| 1. Comprobar si todas las celdas sin minas están reveladas. | |
-| 2. Si se cumple → el jugador gana la partida. | Si se revela una mina → derrota. |
-| 3. Mostrar pantalla de victoria. | |
-| 4. Permitir reiniciar o salir. | |
-
----
-
 # Caso de Uso: Guardar Tablero  
 
 ## Descripción  
