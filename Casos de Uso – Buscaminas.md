@@ -1,5 +1,5 @@
 # Casos de Uso – Buscaminas  
-**Versión:** 1.0  
+**Versión:** 1.2  
 **Fecha:** 29/10/25  
 **Autor:** Roberto Martín  
 
