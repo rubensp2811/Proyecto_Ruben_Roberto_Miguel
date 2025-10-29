@@ -5,6 +5,41 @@
 
 ---
 
+## 📊 Diagrama de Casos de Uso (PlantUML)
+
+```plantuml
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "Jugador" as Player
+
+usecase UC_Jugar as "Jugar"
+usecase UC_MecanicaCelda as "Mecánica Celda"
+usecase UC_Generar as "Generar Tablero"
+usecase UC_Revelar as "Revelar Celdas"
+usecase UC_Marcar as "Marcar Minas"
+usecase UC_Comprobar as "Comprobar Victoria/Derrota"
+usecase UC_Configurar as "Configurar Tablero"
+usecase UC_Guardar as "Guardar Tablero"
+usecase UC_Nueva as "Generar Nueva Partida"
+usecase UC_Resultados as "Mostrar Resultados"
+
+Player --> UC_Jugar
+Player --> UC_Configurar
+Player --> UC_Guardar
+Player --> UC_Nueva
+Player --> UC_Resultados
+
+UC_Jugar .> UC_MecanicaCelda : <<include>>
+UC_MecanicaCelda .> UC_Revelar : <<include>>
+UC_MecanicaCelda .> UC_Marcar : <<include>>
+UC_Jugar .> UC_Comprobar : <<include>>
+UC_Jugar .> UC_Generar : <<include>>
+UC_Generar .> UC_Configurar : <<include>>
+@endum
+
+---
+
 # Caso de Uso: Jugar  
 
 ## Descripción  
