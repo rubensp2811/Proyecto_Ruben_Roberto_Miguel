@@ -12,16 +12,65 @@
 
 ---
 
-# Caso de Uso: Jugar  
+# Caso de Uso: Configurar Tablero  
 
 ## Descripción  
-Iniciar ronda  
+Permitir elegir el tamaño del tablero y el número de minas.  
 
 ## Actores  
 - Jugador  
 
 ## Precondición  
-- Elegir Dificultad  
+- Estar en el menú de configuración.  
+
+---
+
+## Flujos  
+
+| Flujo Principal | Flujo Alternativo |
+|-----------------|------------------|
+| 1. Seleccionar tamaño de tablero. | |
+| 2. Elegir cantidad de minas. | |
+| 3. Confirmar configuración. | Si valores no válidos → mostrar mensaje de error. |
+
+---
+
+# Caso de Uso: Generar Tablero  
+
+## Descripción  
+Generar el tablero con minas aleatorias y calcular los números adyacentes.  
+
+## Actores  
+- Sistema  
+
+## Precondición  
+- Partida iniciada.  
+- Tamaño del tablero y cantidad de minas definidos.  
+
+---
+
+## Flujos  
+
+| Flujo Principal | Flujo Alternativo |
+|-----------------|------------------|
+| 1. Crear la matriz de celdas vacías. | |
+| 2. Calcular coordenadas posibles para colocar minas. | |
+| 3. Colocar minas aleatoriamente. | Si es primer clic → excluir esa celda. |
+| 4. Calcular el número de minas adyacentes en cada celda. | |
+| 5. Marcar el tablero como listo para jugar. | |
+
+---
+
+# Caso de Uso: Jugar  
+
+## Descripción  
+Iniciar ronda.  
+
+## Actores  
+- Jugador  
+
+## Precondición  
+- Elegir dificultad o configuración.  
 
 ---
 
@@ -66,17 +115,17 @@ Controlar las acciones al interactuar con una celda (revelar, marcar, comprobar 
 
 ---
 
-# Caso de Uso: Generar Tablero  
+# Caso de Uso: Revelar Celdas  
 
 ## Descripción  
-Generar el tablero con minas aleatorias y calcular los números adyacentes.  
+Revelar el contenido de una celda y aplicar las reglas correspondientes.  
 
 ## Actores  
+- Jugador  
 - Sistema  
 
 ## Precondición  
-- Partida iniciada.  
-- Tamaño del tablero y cantidad de minas definidos.  
+- Tablero generado.  
 
 ---
 
@@ -84,11 +133,10 @@ Generar el tablero con minas aleatorias y calcular los números adyacentes.
 
 | Flujo Principal | Flujo Alternativo |
 |-----------------|------------------|
-| 1. Crear la matriz de celdas vacías. | |
-| 2. Calcular coordenadas posibles para colocar minas. | |
-| 3. Colocar minas aleatoriamente. | Si es primer clic → excluir esa celda. |
-| 4. Calcular el número de minas adyacentes en cada celda. | |
-| 5. Marcar el tablero como listo para jugar. | |
+| 1. Jugador hace clic en una celda. | Si está marcada → no se revela. |
+| 2. El sistema muestra el contenido (número o vacío). | Si contiene mina → termina la partida. |
+| 3. Si el valor es 0 → Revelar celdas adyacentes automáticamente. | |
+| 4. Actualizar interfaz y contadores. | |
 
 ---
 
@@ -116,17 +164,16 @@ Permitir al jugador marcar una celda con bandera para señalar una posible mina.
 
 ---
 
-# Caso de Uso: Revelar Celdas  
+# Caso de Uso: Comprobar Victoria/Derrota  
 
 ## Descripción  
-Revelar el contenido de una celda y aplicar las reglas correspondientes.  
+Comprobar al final de cada turno si se ha ganado o perdido la partida.  
 
 ## Actores  
-- Jugador  
 - Sistema  
 
 ## Precondición  
-- Tablero generado.  
+- Se ha revelado o marcado una celda.  
 
 ---
 
@@ -134,10 +181,9 @@ Revelar el contenido de una celda y aplicar las reglas correspondientes.
 
 | Flujo Principal | Flujo Alternativo |
 |-----------------|------------------|
-| 1. Jugador hace clic en una celda. | Si está marcada → no se revela. |
-| 2. El sistema muestra el contenido (número o vacío). | Si contiene mina → termina la partida. |
-| 3. Si el valor es 0 → Revelar celdas adyacentes automáticamente. | |
-| 4. Actualizar interfaz y contadores. | |
+| 1. Comprobar si se ha revelado una mina. | Si es así → Derrota. |
+| 2. Comprobar si todas las celdas sin minas están reveladas. | Si es así → Victoria. |
+| 3. Mostrar resultado final. | |
 
 ---
 
@@ -210,52 +256,6 @@ Permitir al jugador iniciar una nueva partida o continuar una anterior.
 | 1. Seleccionar “Nueva Partida” o “Continuar”. | |
 | 2. Si es nueva → crear nuevo tablero. | Si es continuar → cargar partida guardada. |
 | 3. Mostrar tablero en pantalla. | Si no existe partida guardada → mostrar aviso. |
-
----
-
-# Caso de Uso: Configurar Tablero  
-
-## Descripción  
-Permitir elegir el tamaño del tablero y el número de minas.  
-
-## Actores  
-- Jugador  
-
-## Precondición  
-- Estar en el menú de configuración.  
-
----
-
-## Flujos  
-
-| Flujo Principal | Flujo Alternativo |
-|-----------------|------------------|
-| 1. Seleccionar tamaño de tablero. | |
-| 2. Elegir cantidad de minas. | |
-| 3. Confirmar configuración. | Si valores no válidos → mostrar mensaje de error. |
-
----
-
-# Caso de Uso: Comprobar Victoria/Derrota  
-
-## Descripción  
-Comprobar al final de cada turno si se ha ganado o perdido la partida.  
-
-## Actores  
-- Sistema  
-
-## Precondición  
-- Se ha revelado o marcado una celda.  
-
----
-
-## Flujos  
-
-| Flujo Principal | Flujo Alternativo |
-|-----------------|------------------|
-| 1. Comprobar si se ha revelado una mina. | Si es así → Derrota. |
-| 2. Comprobar si todas las celdas sin minas están reveladas. | Si es así → Victoria. |
-| 3. Mostrar resultado final. | |
 
 ---
 
