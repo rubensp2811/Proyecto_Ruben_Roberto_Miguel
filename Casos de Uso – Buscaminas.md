@@ -83,8 +83,7 @@ Iniciar ronda.
 | 3. Pulsación corta celda                 | Pulsación larga celda → Marcar celda (bandera) |
 | 4. Generar Tablero (meter minas)         |                                      |
 | 5. Mecánica celda                        |                                      |
-| 6. Comprobar Victoria                    | Comprobar Victoria                   |
-| 7. No Victoria → Volver al Punto 1       | Victoria → Volver al Punto 3         |
+| 6. Comprobar Victoria/Derrota            |                                      |
 
 ---
 
