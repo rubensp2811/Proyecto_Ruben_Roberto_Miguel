@@ -6,7 +6,7 @@
 
 [![Java](https://img.shields.io/badge/Java-24-orange.svg?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-Project-red.svg?style=for-the-badge&logo=apache-maven)](https://maven.apache.org/)
-[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/invite/b/68c12422387f082b0f37f9a1/ATTI135013bde53ce0d26b52916d7cecb745C48FAF71/mi-tablero-de-trello)
+[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/b/O4eZl3fl/PRRM)
 
 > Implementación del clásico juego Buscaminas desarrollado en Java con interfaz gráfica Swing
 
