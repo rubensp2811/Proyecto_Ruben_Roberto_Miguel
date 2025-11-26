@@ -165,12 +165,6 @@ Las contribuciones son bienvenidas. Por favor:
 
 Este proyecto es de código abierto y está disponible para fines educativos.
 
-## 📞 Contacto
-
-**Gestión del Proyecto:** [Tablero Trello](https://trello.com/invite/b/68c12422387f082b0f37f9a1/ATTI135013bde53ce0d26b52916d7cecb745C48FAF71/mi-tablero-de-trello)
-
----
-
 ⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub
 
 **Desarrollado con ❤️ por Rubén, Roberto y Miguel**
